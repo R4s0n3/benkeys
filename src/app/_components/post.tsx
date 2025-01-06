@@ -21,7 +21,6 @@ export function LatestPost() {
 
   const copyToClipboard = async () => {
     await navigator.clipboard.writeText(transformedText);
-    alert('Text copied to clipboard!');
   };
 
   return (
